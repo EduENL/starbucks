@@ -91,3 +91,48 @@ header ul li a:hover {
     line-height: 1.5em; /* Espaçamento vertical */
     font-weight: 600;
   }
+
+.conteudo .textoPrincipal h2 span {
+  color: var(--corPrimaria);
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.conteudo .textoPrincipal p {
+    color: var(--corSecundária);
+  }
+.conteudo .textoPrincipal a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: var(--corPrimaria);
+  color: var(--corTerciaria);
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px; /*Espaço entre os caractéres*/
+  text-decoration: none;
+}
+.conteudo .textoPrincipal a:hover {
+    background-color: var(--corSecundária);
+}
+
+.conteudo .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+  }
+
+  .sorvetes {
+    position: absolute;
+    left: 50%;
+    bottom: 20PX;
+    transform: translate(-50%); /*Compensa o ajusto centralizando*/
+    display: flex;
+  }
+  .sorvetes li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer; /* Transforma o cursor em uma mão*/
+  }
