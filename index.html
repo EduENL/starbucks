@@ -11,55 +11,61 @@
 <body>
     
     <main>
-        <div class="circulo"></div>
+            <div class="circulo"></div>
 
-        <header>
-            <a href="#"><img src="assets/logo.png" alt="logo" class="logo"></a>
+            <header>
+                <a href="#"><img src="assets/logo.png" alt="logo" class="logo"></a>
 
-            <div class="toggle"></div>
+                <div class="toggle"></div>
 
-            <ul class="links">
-                <li><a href="https://www.starbucks.com.br/" target="_blank">Home</a></li>
-                <li><a href="https://www.starbucks.com.br/menu-list" target="_blank">Menu</a></li>
-                <li><a href="https://www.starbucks.com.br/cafe" target="_blank">Novidades</a></li>
-                <li><a href="https://www.starbucks.com.br/lojas" target="_blank">Lojas</a></li>
-            </ul>
-        </header>
+                <ul class="links">
+                    <li><a href="https://www.starbucks.com.br/" target="_blank" class="header-btn">Home</a></li>
+                    <li><a href="https://www.starbucks.com.br/menu-list" target="_blank" class="header-btn">Menu</a></li>
+                    <li><a href="https://www.starbucks.com.br/cafe" target="_blank" class="header-btn">Novidades</a></li>
+                    <li><a href="https://www.starbucks.com.br/lojas" target="_blank" class="header-btn">Lojas</a></li>
+                </ul>
+            </header>
 
-        <div class="conteudo">
-            <div class="textoPrincipal">
-                    <h2>Não é apenas um café é:<br> <span>Starbucks</span></h2>
-                    <p>Descubra um mundo de sabores inesquecíveis com a Starbucks <br>
-                        Cada colherada é uma explosão de sabores irresistível que <br>  
-                        vão te conquistar!    
-                    </p>
+            <div class="conteudo">
+                <div class="textoPrincipal">
+                        <h2>Não é apenas um café é:<br> <span>Starbucks</span></h2>
+                        <p>Descubra um mundo de sabores inesquecíveis com a Starbucks <br>
+                            Cada colherada é uma explosão de sabores irresistível que <br>  
+                            vão te conquistar!    
+                        </p>
 
-                        <a href="https://www.starbucks.com.br/" target="_blank">Veja mais...</a>
-            </div>
-                <div class="imgBox">
-                    <img src="assets/img1.png" alt="Starbucks">
+                            <a href="https://www.starbucks.com.br/" target="_blank" class="active-color">Veja mais...</a>
                 </div>
-        </div>
+                    <div class="imgBox">
+                        <img src="assets/img1.png" alt="Starbucks" class="starbucks">
+                    </div>
+            </div>
 
-        <ul class="sorvetes">
-                <LI><img src="assets/thumb1.png" ></LI>
-                <li><img src="assets/thumb2.png" ></li>
-                <LI><img src="assets/thumb3.png" ></LI>
-        </ul>
+            <ul class="sorvetes">
+                    <LI><img src="assets/thumb1.png"
+                    onclick="imgSlider('assets/img1.png'); changeCircleColor('#86a96f')" alt="bebida 1"></LI>
+                    <li><img src="assets/thumb2.png" 
+                    onclick="imgSlider('assets/img2.png'); changeCircleColor('#f6d6d6') " alt="bebida 2"></li>
+                    <LI><img src="assets/thumb3.png" 
+                    onclick="imgSlider('assets/img3.png'); changeCircleColor('#F58AD3')" alt="bebida 3"></LI>
+            </ul>
 
-        <ul class="redesSociais">
-            <li>
-                <a href="http://facebook.com.br/" target="_blank"><img src="assets/facebook.png" alt="imagem facebook"></a>
-            </li>
+            <ul class="redesSociais">
+                <li>
+                    <a href="http://facebook.com.br/" target="_blank"><img src="assets/facebook.png" alt="imagem facebook"></a>
+                </li>
 
-            <li>
-                <a href="http://twitter.com/" target="_blank"><img src="assets/twitter.png" alt="imagem facebook"></a>
-            </li>
+                <li>
+                    <a href="http://twitter.com/" target="_blank"><img src="assets/twitter.png" alt="imagem facebook"></a>
+                </li>
 
-            <li>
-                <a href="http://instagram.com.br/" target="_blank"><img src="assets/instagram.png" alt="imagem facebook"></a>
-            </li>
-        </ul>
+                <li>
+                    <a href="http://instagram.com.br/" target="_blank"><img src="assets/instagram.png" alt="imagem facebook"></a>
+                </li>
+            </ul>
+            
+            </section>
+        <script src="script.js"></script>
     </main>
 
 </body>
